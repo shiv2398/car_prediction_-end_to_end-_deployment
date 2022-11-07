@@ -6,7 +6,7 @@ idna==3.3
 itsdangerous==2.1.0
 Jinja2==3.0.3
 joblib==1.1.0
-jsonify==1.1.2
+
 MarkupSafe==2.0.1
 numpy==1.22.1
 requests==2.25.0
