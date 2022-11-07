@@ -6,7 +6,7 @@ import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
-model_file='/media/sahitya/OS/car_prediction_using_flask/random_rf.deb'
+model_file='random_rf.deb'
 with open(model_file,'rb') as f_in:
     model=pickle.load(f_in)
 @app.route('/',methods=['GET'])
